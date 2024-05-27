@@ -25,7 +25,7 @@ function cinco() {
     console.log("cinco")   
 } 
 
-
+// Callback
 setTimeout(() => uno(dos),5000)
 
 //calback hell
@@ -36,12 +36,15 @@ setTimeout(() => uno(
                 () => cinco(),)))), 3000);
 
 
+
+// Funciones anónimas                
 const nombre = function () {
     console.log("nombre")
 }
 
 nombre()
 
+    //arrow functions
 const persona = () => console.log("Barbara")
 
 persona();
